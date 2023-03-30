@@ -1,0 +1,30 @@
+:root {
+  --blue: #384ffe;
+  --gray: #787c9d;
+}
+
+html {
+  overflow-y: auto;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+.link {
+  color: white;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  color: var(--blue);
+}
