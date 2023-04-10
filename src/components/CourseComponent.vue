@@ -44,7 +44,7 @@ let dialog = ref(false);
 </script>
 
 <template>
-  <v-sheet class="pa-6 mx-auto my-6" rounded="xl" max-width="900" elevation="2">
+  <v-sheet class="pa-6 mx-auto my-6" max-width="900" elevation="2" rounded="xl">
     <h3>{{ course }}</h3>
     <p>Profesor: {{ teacher }}</p>
     <v-row class="dialog_row">
@@ -80,7 +80,7 @@ let dialog = ref(false);
               color="#384FFE"
               variant="text"
               @click="dialog = false"
-              >CERRAR</v-btn
+              >X</v-btn
             >
           </v-row>
         </v-sheet>
